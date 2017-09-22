@@ -9,7 +9,7 @@ header{background-color: #fff;	height: 90px; box-shadow: 0 3px 3px rgba(0,0,0,.1
 
 section{min-height: 100%; width: 100%;}
 
-.header{
+.inicio{
 background: rgba(237,237,237,0.9);
 background: -moz-linear-gradient(top, rgba(237,237,237,0.9) 0%, rgba(237,237,237,0.9) 77%, rgba(27,127,193,0.9) 100%);
 background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(237,237,237,0.9)), color-stop(77%, rgba(237,237,237,0.9)), color-stop(100%, rgba(27,127,193,0.9)));
