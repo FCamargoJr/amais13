@@ -40,7 +40,11 @@ nav {font-size: 18px;}
             align-items: center;
     -webkit-justify-content: center;
 }
-.slogan h1 {text-align: center; }
+.slogan{
+	z-index: 254;
+}
+
+.slogan h1 {text-align: center;}
 
 /*-FIM INICIO-*/
 
