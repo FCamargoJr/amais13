@@ -139,6 +139,17 @@ nav {font-size: 18px;}
     margin: 0px;
 }
 
+.respingo{
+	background-image: url(../img/respingos.png);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    float: right;
+    background-position: bottom;
+    background-repeat: repeat-x;
+    margin: 0px;
+}
+
 
 footer{
 	background-color: #fff;	
