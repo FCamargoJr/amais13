@@ -1,8 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
 
-body{
-	background: rgba(252,234,187,1);
+*{margin: 0px;}
+
+body, html{
+background: rgba(252,234,187,1);
 background: -moz-linear-gradient(top, rgba(252,234,187,1) 0%, rgba(94,147,166,1) 13%, rgba(147,250,159,1) 32%, rgba(247,0,247,1) 51%, rgba(179,170,110,1) 69%, rgba(43,66,184,1) 84%, rgba(186,147,47,1) 100%);
 background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(252,234,187,1)), color-stop(13%, rgba(94,147,166,1)), color-stop(32%, rgba(147,250,159,1)), color-stop(51%, rgba(247,0,247,1)), color-stop(69%, rgba(179,170,110,1)), color-stop(84%, rgba(43,66,184,1)), color-stop(100%, rgba(186,147,47,1)));
 background: -webkit-linear-gradient(top, rgba(252,234,187,1) 0%, rgba(94,147,166,1) 13%, rgba(147,250,159,1) 32%, rgba(247,0,247,1) 51%, rgba(179,170,110,1) 69%, rgba(43,66,184,1) 84%, rgba(186,147,47,1) 100%);
@@ -11,3 +13,24 @@ background: -ms-linear-gradient(top, rgba(252,234,187,1) 0%, rgba(94,147,166,1) 
 background: linear-gradient(to bottom, rgba(252,234,187,1) 0%, rgba(94,147,166,1) 13%, rgba(147,250,159,1) 32%, rgba(247,0,247,1) 51%, rgba(179,170,110,1) 69%, rgba(43,66,184,1) 84%, rgba(186,147,47,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', endColorstr='#ba932f', GradientType=0 );
 }
+
+.tela div{
+	min-height: 100vh;
+	width: 100%;
+	overflow:auto;
+}
+
+.tela section{
+	width: 90%;
+	margin: auto;
+	height: auto!important;
+	padding: 7% 10% 10% 10%;
+}
+
+.agencia{background-color: aqua; }
+.servicos{background-color: blue;}
+.equipe{background-color: blueviolet;}
+.clientes{background-color: darkorange;}
+.portfolio{background-color: red;}
+.contato{background-color: lawngreen;}
+
