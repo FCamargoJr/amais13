@@ -135,6 +135,7 @@ nav {font-size: 18px;}
     width: 100%;
     position: absolute;
     float: right;
+    background-attachment: fixed;
     background-position: right;
     background-repeat: no-repeat;
     margin: 0px;
