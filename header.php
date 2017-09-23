@@ -1,4 +1,5 @@
- <a class="navbar-brand" href="#inicio"><img src="img\logo-nav.png"></a>
+<header>
+    <a class="navbar-brand" href="#inicio"><img src="img\logo-nav.png"></a>
     <nav class="navbar navbar-default navbar-right container-fluid">
     <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
@@ -25,3 +26,4 @@
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
     </nav>
+</header>
