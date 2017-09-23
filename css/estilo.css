@@ -21,9 +21,7 @@ INICIO
 -----------*/
 
 
-.text1{color:#33c5ed;}
-.text2{color:#926caa;}
-.text3{color:#cc6caa;}
+
 
 .navbar-brand{
 	position: fixed;
@@ -150,10 +148,4 @@ nav {font-size: 18px;}
 
 
 
-footer{
-	background-color: #fff;	
-	height: 50px; 
-	box-shadow: 0 -3px 3px rgba(0,0,0,.1);
-	width: 100%;
-    bottom: 0;
-}
+
