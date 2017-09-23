@@ -18,6 +18,7 @@ INICIO
 	position: fixed;
 	z-index: 2;
 }
+nav {font-size: 18px;}
 
 .inicio{
 	background: rgba(237,237,237,0.9);
