@@ -78,16 +78,6 @@ nav {font-size: 18px;}
 /*-FIM INICIO-*/
 
 /*-FIM AGENCIA-*/
-.fundo_agencia{
-	background-image: url(../img/fundo_agencia.png);
-	height: 100%;
-    width: 100%;
-    position: absolute;
-    float: right;
-    background-position: right;
-    background-repeat: no-repeat;
-    margin: 0px;
-}
 .agencia{
     /*fundo_degrade*/
 	background: rgba(27,127,193,0.9);
@@ -98,6 +88,17 @@ nav {font-size: 18px;}
 	background: -ms-linear-gradient(top, rgba(27,127,193,0.9) 0%, rgba(140,78,158,0.9) 100%);
 	background: linear-gradient(to bottom, rgba(27,127,193,0.9) 0%, rgba(140,78,158,0.9) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b7fc1', endColorstr='#8c4e9e', GradientType=0 );
+}
+
+.agencia2{
+	background-image: url(../img/agencia.png);
+	height: 100%;
+    width: 100%;
+    position: absolute;
+    float: right;
+    background-position: right top;
+    background-repeat: no-repeat;
+    margin: 0px;
 }
 
 /*-FIM AGENCIA-*/
