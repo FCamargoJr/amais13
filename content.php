@@ -1,4 +1,4 @@
-<div class="tela">
+<div id="topo" class="tela">
 
 	<div class="capa">
 		<section>
@@ -6,7 +6,7 @@
 		</section>
 	</div>
 	
-	<div class="agencia">
+	<div id="agencia" class="agencia">
 		<section>
 		<h1>O Hospicio</h1>
 		
@@ -19,7 +19,7 @@
 		</section>
 	</div>
 	
-	<div class="servicos">
+	<div id="servicos" class="servicos">
 		<section>
 		<h1>Durante o banho de sol</h1>
 		<p>Uma agência multiplataforma de oportunidades e possibilidades. Em nosso DNA existe a sede por mudança e a paixão pela criatividade. Aqui ninguém fica parado: a AMAIS13 está sempre antenada com tudo que acontece no Brasil e no mundo, trazendo para Região Metropolitana da Baixada Santista as melhores estratégias e tendências do mercado publicitário.</p>
@@ -33,11 +33,11 @@
 		</section>
 	</div>
 	
-	<div class="equipe"></div>
+	<div id="equipe" class="equipe"></div>
 	
-	<div class="clientes"></div>
+	<div id="clientes" class="clientes"></div>
 	
-	<div class="portfolio"></div>
+	<div id="portfolio" class="portfolio"></div>
 	
-	<div class="contato"></div>
+	<div id="contato" class="contato"></div>
 </div>
