@@ -3,6 +3,11 @@
 /*
 *{margin: 0px;}
 */
+
+*{
+	margin: 0px;
+}
+
 html,body{width: 100%; height:100%; background-image: url(../img/back.jpg);}
 
 header{margin-top: 20px; background-color: #fff; height: auto; box-shadow: 0 3px 3px rgba(0,0,0,.1); position: fixed; width: 100%; line-height: 260px;}
@@ -119,6 +124,18 @@ nav {font-size: 18px;}
 .text1{color:#33c5ed;}
 .text2{color:#926caa;}
 .text3{color:#cc6caa;}
+
+.design{
+	background-image: url(../img/manchas2.png);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    float: right;
+    background-position: right;
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+
 
 footer{
 	background-color: #fff;	
