@@ -16,7 +16,6 @@ INICIO
 -----------*/
 .navbar-brand{
 	position: fixed;
-	padding-top: 18px;
 	z-index: 2;
 }
 
@@ -117,17 +116,9 @@ INICIO
 	border-color:dodgerblue;
 }
 
-.text1{
-	color:#33c5ed;
-}
-
-.text2{
-	color:#926caa;
-}
-
-.text3{
-	color:#cc6caa;
-}
+.text1{color:#33c5ed;}
+.text2{color:#926caa;}
+.text3{color:#cc6caa;}
 
 footer{
 	background-color: #fff;	
