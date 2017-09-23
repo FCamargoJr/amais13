@@ -1,6 +1,6 @@
 <div id="topo" class="tela">
 
-	<div class="capa">
+	<div id="inicio" class="capa">
 		<section>
 		<h1>Mentes <span class="text1">loucamente</span> criativas<br/> transformando <span class="text2">desafios</span><br/>em <span class="text3">oportunidades</span></h1>
 		</section>
