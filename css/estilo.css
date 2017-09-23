@@ -19,6 +19,20 @@ li{display: inline;}
 /*----------
 INICIO
 -----------*/
+.dot{
+	height:110px;
+	width:0;
+	border:0;
+	border-left:5px;
+	border-style:dotted;
+	border-color:dodgerblue;
+	padding: 3px;
+}
+
+.text1{color:#33c5ed;}
+.text2{color:#926caa;}
+.text3{color:#cc6caa;}
+
 .navbar-brand{
 	position: fixed;
 	z-index: 2;
@@ -27,14 +41,6 @@ nav {font-size: 18px;}
 
 .inicio{
 	background: rgba(237,237,237,0.9);
-	/*
-	background: -moz-linear-gradient(top, rgba(237,237,237,0.9) 0%, rgba(237,237,237,0.9) 77%, rgba(27,127,193,0.9) 100%);
-	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(237,237,237,0.9)), color-stop(77%, rgba(237,237,237,0.9)), color-stop(100%, rgba(27,127,193,0.9)));
-	background: -webkit-linear-gradient(top, rgba(237,237,237,0.9) 0%, rgba(237,237,237,0.9) 77%, rgba(27,127,193,0.9) 100%);
-	background: -o-linear-gradient(top, rgba(237,237,237,0.9) 0%, rgba(237,237,237,0.9) 77%, rgba(27,127,193,0.9) 100%);
-	background: -ms-linear-gradient(top, rgba(237,237,237,0.9) 0%, rgba(237,237,237,0.9) 77%, rgba(27,127,193,0.9) 100%);
-	background: linear-gradient(to bottom, rgba(237,237,237,0.9) 0%, rgba(237,237,237,0.9) 77%, rgba(27,127,193,0.9) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#1b7fc1', GradientType=0 ); */
 	display: -webkit-flex;
   	display:         flex;
    	-webkit-align-items: center;
@@ -47,10 +53,43 @@ nav {font-size: 18px;}
 
 .slogan h1 {text-align: center;}
 
+.design{
+	background-image: url(../img/manchas2.png);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    float: right;
+    background-position: right;
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+
+.respingo{
+	background-image: url(../img/respingos.png);
+	opacity: 0.9;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-position: bottom;
+    background-repeat: repeat-x;
+    margin: 0px;
+}
 /*-FIM INICIO-*/
 
 /*-FIM AGENCIA-*/
+.fundo_agencia{
+	background-image: url(../img/fundo_agencia.png);
+	height: 100%;
+    width: 100%;
+    position: absolute;
+    float: right;
+    background-position: right;
+    background-repeat: no-repeat;
+    margin: 0px;
+}
 .agencia{
+    /*fundo_degrade*/
 	background: rgba(27,127,193,0.9);
 	background: -moz-linear-gradient(top, rgba(27,127,193,0.9) 0%, rgba(140,78,158,0.9) 100%);
 	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(27,127,193,0.9)), color-stop(100%, rgba(140,78,158,0.9)));
@@ -115,43 +154,7 @@ nav {font-size: 18px;}
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#864d98', endColorstr='#ac5aa1', GradientType=0 );
 }
 
-.dot{
-	height:110px;
-	width:0;
-	border:0;
-	border-left:5px;
-	border-style:dotted;
-	border-color:dodgerblue;
-	padding: 3px;
-}
 
-.text1{color:#33c5ed;}
-.text2{color:#926caa;}
-.text3{color:#cc6caa;}
-
-.design{
-	background-image: url(../img/manchas2.png);
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    float: right;
-    background-attachment: fixed;
-    background-position: right;
-    background-repeat: no-repeat;
-    margin: 0px;
-}
-
-.respingo{
-	background-image: url(../img/respingos.png);
-	opacity: 0.9;
-    filter: alpha(opacity=50); /* For IE8 and earlier */
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    background-position: bottom;
-    background-repeat: repeat-x;
-    margin: 0px;
-}
 
 
 footer{
