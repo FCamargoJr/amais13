@@ -108,7 +108,6 @@ INICIO
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#864d98', endColorstr='#ac5aa1', GradientType=0 );
 }
 
-
 .dot{
 	height:110px;
 	width:0;
@@ -117,6 +116,19 @@ INICIO
 	border-style:dotted;
 	border-color:dodgerblue;
 }
+
+.text1{
+	color:#33c5ed;
+}
+
+.text2{
+	color:#926caa;
+}
+
+.text3{
+	color:#cc6caa;
+}
+
 footer{
 	background-color: #fff;	
 	height: 50px; 
