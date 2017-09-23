@@ -107,6 +107,9 @@ INICIO
 	background: linear-gradient(to bottom, rgba(134,77,152,0.9) 0%, rgba(172,90,161,0.9) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#864d98', endColorstr='#ac5aa1', GradientType=0 );
 }
+.design{
+	float: right;
+}
 footer{
 	background-color: #fff;	
 	height: 50px; 
