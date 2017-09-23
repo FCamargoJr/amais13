@@ -141,6 +141,8 @@ nav {font-size: 18px;}
 
 .respingo{
 	background-image: url(../img/respingos.png);
+	opacity: 0.4;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
     height: 100%;
     width: 100%;
     position: absolute;
