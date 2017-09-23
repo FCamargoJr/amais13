@@ -14,22 +14,17 @@ background: linear-gradient(to bottom, rgba(252,234,187,1) 0%, rgba(94,147,166,1
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', endColorstr='#ba932f', GradientType=0 );
 }
 
-.tela div{
-	min-height: 100vh;
-	width: 100%;
-	overflow:auto;
-}
+header{margin-top: 20px; background-color: #fff; height: auto; box-shadow: 0 3px 3px rgba(0,0,0,.1); position: fixed; width: 100%; line-height: 260px; z-index: 255}
 
-.tela section{
-	width: 90%;
-	margin: auto;
-	height: auto!important;
-	padding: 7% 10% 10% 10%;
-}
+.tela div{min-height: 100vh; width: 100%; overflow:auto;}
+.tela section{width: 90%; margin: auto; height: auto!important;	padding: 7% 10% 10% 10%;}
 
-.capa{background-color: azure;}
-.capa h1{margin: 0px!important; border-left: dotted 5px dodgerblue; padding-left: 2%;}
+.capa{background-color: azure; padding-top: 25vh;}
+.capa h1{width: 80%; margin: 5% 5% 20% 20%; border-left: dotted 5px dodgerblue; padding-left: 2%;}   
 
+.text1{color:#33c5ed;}
+.text2{color:#926caa;}
+.text3{color:#cc6caa;}
 
 .agencia{background-color: aqua; }
 .servicos{background-color: hotpink;}
@@ -37,3 +32,5 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', end
 .clientes{background-color: darkorange;}
 .portfolio{background-color: red;}
 .contato{background-color: lawngreen;}
+
+footer{background-color: #fff; height: 50px; box-shadow: 0 -3px 3px rgba(0,0,0,.1);	width: 100%; bottom: 0;}
