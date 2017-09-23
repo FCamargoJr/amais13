@@ -35,9 +35,7 @@ INICIO
     -webkit-justify-content: center;
 }
 .inicio div {margin: 7px;}
-
-
-.slogan h2 {text-align: center;}
+.slogan h1 {text-align: center; }
 
 /*-FIM INICIO-*/
 
@@ -114,6 +112,7 @@ INICIO
 	border-left:5px;
 	border-style:dotted;
 	border-color:dodgerblue;
+	padding: 3px;
 }
 
 .text1{color:#33c5ed;}
