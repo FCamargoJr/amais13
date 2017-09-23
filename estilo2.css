@@ -27,10 +27,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', end
 	padding: 7% 10% 10% 10%;
 }
 
+.capa{background-color: azure;}
+.capa h1{margin: 0px!important; border-left: dotted 5px dodgerblue; padding-left: 2%;}
+
+
 .agencia{background-color: aqua; }
-.servicos{background-color: blue;}
+.servicos{background-color: hotpink;}
 .equipe{background-color: blueviolet;}
 .clientes{background-color: darkorange;}
 .portfolio{background-color: red;}
 .contato{background-color: lawngreen;}
-
