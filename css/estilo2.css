@@ -1,6 +1,21 @@
 @charset "utf-8";
 /* CSS Document */
 
+/*
+Theme Name: Agência Amais13
+Theme URI: http://agenciaamais13.com
+Description: The Wordpress AMAIS13
+Author: Fábio Camargo Jr.
+Author URI: 
+Version: 1.0
+.
+Your theme can be your copyrighted work.
+Like WordPress, this work is released under GNU General Public License, version 2 (GPL).
+http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+.
+ */
+
+
 *{margin: 0px;}
 
 body, html{
