@@ -33,24 +33,20 @@ header{margin-top: 20px; background-color: #fff; height: auto; box-shadow: 0 3px
 
 .navbar-brand {margin-left: 2%;}
 
-@media screen and (min-width: 900px){.navbar-brand {margin-left: 5%;} .capa h1{margin-left: 30%;}}
+@media screen and (min-width: 900px){
+	.navbar-brand {margin-left: 5%;}
+	.capa h1{margin-left: 30%;}
+}
 
-@media screen and (max-width: 700px){.navbar-nav {margin-top: 5%;} .capa h1{margin-left: 5%;}}
+@media screen and (max-width: 700px){
+	.navbar-nav {margin-top: 5%;} 
+	.capa h1{margin-left: 5%;}
+}
 
 .tela div{min-height: 100vh; width: 100%; overflow: auto; }
 
-.capa{
-	padding-top: 25vh;
-	background-image: url(../img/manchas2.png);
-	background-position: right;
-	background-repeat: no-repeat;
-}
-.capa h1{
-	border-left: dotted 5px dodgerblue; 
-	padding-left: 2%;
-	margin-top: 5%;
-	position: relative;
-}
+.capa{padding-top: 25vh; background-image: url(../img/manchas2.png), url(../img/respingos.png); background-position: right, bottom; background-repeat: no-repeat, repeat-x;}
+.capa h1{border-left: dotted 5px dodgerblue; padding-left: 2%; margin-top: 5%; position: relative;}
 
 .text1{color:#33c5ed;}
 .text2{color:#926caa;}
