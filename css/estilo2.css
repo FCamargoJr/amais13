@@ -33,10 +33,11 @@ header{margin-top: 20px; background-color: #fff; height: auto; box-shadow: 0 3px
 
 .navbar-brand {margin-left: 2%;}
 
-@media screen and (min-width: 900px){.navbar-brand {margin-left: 5%;}}
-@media screen and (max-width: 700px){.navbar-nav {margin-top: 5%;}}
+@media screen and (min-width: 900px){.navbar-brand {margin-left: 5%;} .capa h1{margin-left: 30%;}}
 
-.tela div{min-height: 100vh; width: 100%; }
+@media screen and (max-width: 700px){.navbar-nav {margin-top: 5%;} .capa h1{margin-left: 5%;}}
+
+.tela div{min-height: 100vh; width: 100%; overflow: auto; }
 
 .capa{
 	padding-top: 25vh;
@@ -47,6 +48,7 @@ header{margin-top: 20px; background-color: #fff; height: auto; box-shadow: 0 3px
 .capa h1{
 	border-left: dotted 5px dodgerblue; 
 	padding-left: 2%;
+	margin-top: 5%;
 	position: relative;
 }
 
@@ -54,11 +56,11 @@ header{margin-top: 20px; background-color: #fff; height: auto; box-shadow: 0 3px
 .text2{color:#926caa;}
 .text3{color:#cc6caa;}
 
-.agencia{background-color: aqua; }
-.servicos{background-color: hotpink;}
-.equipe{background-color: blueviolet;}
-.clientes{background-color: darkorange;}
-.portfolio{background-color: red;}
-.contato{background-color: lawngreen;}
+.agencia{}
+.servicos{}
+.equipe{}
+.clientes{}
+.portfolio{}
+.contato{}
 
 footer{background-color: #fff; height: 50px; box-shadow: 0 -3px 3px rgba(0,0,0,.1);	width: 100%; bottom: 0;}
