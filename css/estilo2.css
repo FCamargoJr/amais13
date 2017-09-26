@@ -5,21 +5,16 @@
 Theme Name: Agência Amais13
 Theme URI: http://agenciaamais13.com
 Description: The Wordpress AMAIS13
-Author: Fábio Camargo Jr.
+Author: Henrique Rossi e Fábio Camargo Jr.
 Author URI: 
 Version: 1.0
-.
-Your theme can be your copyrighted work.
-Like WordPress, this work is released under GNU General Public License, version 2 (GPL).
-http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
-.
  */
 
 
 *{margin: 0px; }
 
 body, html{
-	
+font-family: Muli;
 background: rgba(228,228,228,1);
 background: -moz-linear-gradient(top, rgba(228,228,228,1) 0%, rgba(228,228,228,1) 13%, rgba(147,250,159,1) 32%, rgba(247,0,247,1) 51%, rgba(179,170,110,1) 69%, rgba(43,66,184,1) 84%, rgba(186,147,47,1) 100%);
 background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(228,228,228,1)), color-stop(13%, rgba(228,228,228,1)), color-stop(32%, rgba(147,250,159,1)), color-stop(51%, rgba(247,0,247,1)), color-stop(69%, rgba(179,170,110,1)), color-stop(84%, rgba(43,66,184,1)), color-stop(100%, rgba(186,147,47,1)));
@@ -33,7 +28,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', end
 /* menu */
 header{margin-top: 20px; background-color: #fff; height: 50px; box-shadow: 0 3px 3px rgba(0,0,0,.1); position:fixed; width: 100%; z-index: 255;
 text-transform: uppercase;}
-
 
 .navbar-brand {margin-left: 2%; position: fixed;}
 
@@ -54,12 +48,10 @@ text-transform: uppercase;}
     top: 55px;
     right: 60px;
 }
- 
 .icones-sociais li {
     display: inline-block;
     margin-left: 8px;
 }
- 
 .icones-sociais a {
     width: 45px;
     height: 45px;
@@ -76,16 +68,43 @@ text-transform: uppercase;}
 .tela div{min-height: 100vh; width: 100%; overflow: auto; }
 
 /* inicio */
-.capa{padding-top: 25vh; background-image: url(../img/respingos.png), url(../img/manchas2.png); background-position: bottom, right; background-repeat: repeat-x, no-repeat;}
-.capa h1{border-left: dotted 5px dodgerblue; padding-left: 2%; margin-top: 5%; position: relative; overflow: hidden;}
+.capa{padding-top: 25vh;opacity: 0.9; background-image: url(../img/respingos.png), url(../img/manchas2.png); background-position: bottom, right; background-repeat: repeat-x, no-repeat;}
+.capa h1{border-left: dotted 5px dodgerblue; padding-left: 2%; margin-top: 5%; position: relative; overflow: hidden; font-weight: 500;}
 
 .text1{color:#33c5ed;}
 .text2{color:#926caa;}
 .text3{color:#cc6caa;}
 /*.../inicio */
 
-.agencia{background-image: url(../img/agencia.png); background-attachment:local; background-position: top right; background-repeat: no-repeat;}
-.servicos{}
+.agencia{
+	background: url(../img/agencia.png) no-repeat top center;
+	
+	/*degrade
+	background: rgba(27,127,193,0.9);
+	background: -moz-linear-gradient(top, rgba(27,127,193,0.9) 0%, rgba(140,78,158,0.9) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(27,127,193,0.9)), color-stop(100%, rgba(140,78,158,0.9)));
+	background: -webkit-linear-gradient(top, rgba(27,127,193,0.9) 0%, rgba(140,78,158,0.9) 100%);
+	background: -o-linear-gradient(top, rgba(27,127,193,0.9) 0%, rgba(140,78,158,0.9) 100%);
+	background: -ms-linear-gradient(top, rgba(27,127,193,0.9) 0%, rgba(140,78,158,0.9) 100%);
+	background: linear-gradient(to bottom, rgba(27,127,193,0.9) 0%, rgba(140,78,158,0.9) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b7fc1', endColorstr='#8c4e9e', GradientType=0 );
+	../degrade*/
+	border: 2px green solid;
+}
+
+
+.servicos{
+
+	/*degrade*/
+	background: rgba(140,78,158,0.9);
+	background: -moz-linear-gradient(top, rgba(140,78,158,0.9) 0%, rgba(201,100,166,0.9) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(140,78,158,0.9)), color-stop(100%, rgba(201,100,166,0.9)));
+	background: -webkit-linear-gradient(top, rgba(140,78,158,0.9) 0%, rgba(201,100,166,0.9) 100%);
+	background: -o-linear-gradient(top, rgba(140,78,158,0.9) 0%, rgba(201,100,166,0.9) 100%);
+	background: -ms-linear-gradient(top, rgba(140,78,158,0.9) 0%, rgba(201,100,166,0.9) 100%);
+	background: linear-gradient(to bottom, rgba(140,78,158,0.9) 0%, rgba(201,100,166,0.9) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8c4e9e', endColorstr='#c964a6', GradientType=0 );
+	/*../degrade*/}
 .equipe{}
 .clientes{}
 .portfolio{}
