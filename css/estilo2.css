@@ -20,18 +20,20 @@ http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 
 body, html{
 	
-background: rgba(252,234,187,1);
-background: -moz-linear-gradient(top, rgba(252,234,187,1) 0%, rgba(94,147,166,1) 13%, rgba(147,250,159,1) 32%, rgba(247,0,247,1) 51%, rgba(179,170,110,1) 69%, rgba(43,66,184,1) 84%, rgba(186,147,47,1) 100%);
-background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(252,234,187,1)), color-stop(13%, rgba(94,147,166,1)), color-stop(32%, rgba(147,250,159,1)), color-stop(51%, rgba(247,0,247,1)), color-stop(69%, rgba(179,170,110,1)), color-stop(84%, rgba(43,66,184,1)), color-stop(100%, rgba(186,147,47,1)));
-background: -webkit-linear-gradient(top, rgba(252,234,187,1) 0%, rgba(94,147,166,1) 13%, rgba(147,250,159,1) 32%, rgba(247,0,247,1) 51%, rgba(179,170,110,1) 69%, rgba(43,66,184,1) 84%, rgba(186,147,47,1) 100%);
-background: -o-linear-gradient(top, rgba(252,234,187,1) 0%, rgba(94,147,166,1) 13%, rgba(147,250,159,1) 32%, rgba(247,0,247,1) 51%, rgba(179,170,110,1) 69%, rgba(43,66,184,1) 84%, rgba(186,147,47,1) 100%);
-background: -ms-linear-gradient(top, rgba(252,234,187,1) 0%, rgba(94,147,166,1) 13%, rgba(147,250,159,1) 32%, rgba(247,0,247,1) 51%, rgba(179,170,110,1) 69%, rgba(43,66,184,1) 84%, rgba(186,147,47,1) 100%);
-background: linear-gradient(to bottom, rgba(252,234,187,1) 0%, rgba(94,147,166,1) 13%, rgba(147,250,159,1) 32%, rgba(247,0,247,1) 51%, rgba(179,170,110,1) 69%, rgba(43,66,184,1) 84%, rgba(186,147,47,1) 100%);
+background: rgba(228,228,228,1);
+background: -moz-linear-gradient(top, rgba(228,228,228,1) 0%, rgba(228,228,228,1) 13%, rgba(147,250,159,1) 32%, rgba(247,0,247,1) 51%, rgba(179,170,110,1) 69%, rgba(43,66,184,1) 84%, rgba(186,147,47,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(228,228,228,1)), color-stop(13%, rgba(228,228,228,1)), color-stop(32%, rgba(147,250,159,1)), color-stop(51%, rgba(247,0,247,1)), color-stop(69%, rgba(179,170,110,1)), color-stop(84%, rgba(43,66,184,1)), color-stop(100%, rgba(186,147,47,1)));
+background: -webkit-linear-gradient(top, rgba(228,228,228,1) 0%, rgba(228,228,228,1) 13%, rgba(147,250,159,1) 32%, rgba(247,0,247,1) 51%, rgba(179,170,110,1) 69%, rgba(43,66,184,1) 84%, rgba(186,147,47,1) 100%);
+background: -o-linear-gradient(top, rgba(228,228,228,1) 0%, rgba(228,228,228,1) 13%, rgba(147,250,159,1) 32%, rgba(247,0,247,1) 51%, rgba(179,170,110,1) 69%, rgba(43,66,184,1) 84%, rgba(186,147,47,1) 100%);
+background: -ms-linear-gradient(top, rgba(228,228,228,1) 0%, rgba(228,228,228,1) 13%, rgba(147,250,159,1) 32%, rgba(247,0,247,1) 51%, rgba(179,170,110,1) 69%, rgba(43,66,184,1) 84%, rgba(186,147,47,1) 100%);
+background: linear-gradient(to bottom, rgba(228,228,228,1) 0%, rgba(228,228,228,1) 13%, rgba(147,250,159,1) 32%, rgba(247,0,247,1) 51%, rgba(179,170,110,1) 69%, rgba(43,66,184,1) 84%, rgba(186,147,47,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', endColorstr='#ba932f', GradientType=0 );
 }
 
-header{margin-top: 20px; background-color: #fff; height: auto; box-shadow: 0 3px 3px rgba(0,0,0,.1); position:absolute; width: 100%; z-index: 255;
+/* menu */
+header{margin-top: 20px; background-color: #fff; height: 50px; box-shadow: 0 3px 3px rgba(0,0,0,.1); position:fixed; width: 100%; z-index: 255;
 text-transform: uppercase;}
+
 
 .navbar-brand {margin-left: 2%; position: fixed;}
 
@@ -44,25 +46,45 @@ text-transform: uppercase;}
 	.navbar-nav {margin-top: 5%;} 
 	.capa h1{margin-left: 5%;}
 }
-/* lista social*/
-.icones-sociais {display: inline; line-height: 30px;}
+/* .../menu*/
 
+/* lista social */
+.icones-sociais{
+    position: absolute;
+    top: 55px;
+    right: 60px;
+}
  
-.Facebook {background: url("img/social_topo_Facebook.png") no-repeat; list-style-type: none; height: 30px;}
-.Instagram {background: url("img/social_topo_Instagram.png") no-repeat; list-style-type: none; height: 30px;}
-.Youtube {background: url("img/social_topo_Youtube.png") no-repeat; list-style-type: none; height: 30px;}
-.Linkedin {background-image: url("img/social_topo_LinkedIn.png") no-repeat; list-style-type: none; height: 30px;}
+.icones-sociais li {
+    display: inline-block;
+    margin-left: 8px;
+}
  
+.icones-sociais a {
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    text-indent: -99999px;
+}
+ 
+.Facebook {background: url(../img/social_topo_facebook.png) no-repeat center; background-size: cover;}
+.Instagram {background: url(../img/social_topo_instagram.png) no-repeat center; background-size: cover;}
+.Youtube {background: url(../img/social_topo_youtube.png) no-repeat center; background-size: cover;}
+.Linkedin {background: url(../img/social_topo_linkedin.png) no-repeat center; background-size: cover;}
+ /* .../lista social */
+
 .tela div{min-height: 100vh; width: 100%; overflow: auto; }
 
+/* inicio */
 .capa{padding-top: 25vh; background-image: url(../img/respingos.png), url(../img/manchas2.png); background-position: bottom, right; background-repeat: repeat-x, no-repeat;}
 .capa h1{border-left: dotted 5px dodgerblue; padding-left: 2%; margin-top: 5%; position: relative; overflow: hidden;}
 
 .text1{color:#33c5ed;}
 .text2{color:#926caa;}
 .text3{color:#cc6caa;}
+/*.../inicio */
 
-.agencia{background-image: url(../img/agencia.png); background-attachment:local;background-position: top right; background-repeat: no-repeat; }
+.agencia{background-image: url(../img/agencia.png); background-attachment:local; background-position: top right; background-repeat: no-repeat;}
 .servicos{}
 .equipe{}
 .clientes{}
