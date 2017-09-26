@@ -20,14 +20,8 @@ li{display: inline;}
 INICIO
 -----------*/
 
-
-
-
-.navbar-brand{
-	position: fixed;
-	z-index: 2;
-}
 nav {font-size: 18px;}
+.navbar-brand{position: fixed; z-index: 2;}
 
 .inicio{
 	background: rgba(237,237,237,0.9);

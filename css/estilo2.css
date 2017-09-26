@@ -25,12 +25,10 @@ background: linear-gradient(to bottom, rgba(228,228,228,1) 0%, rgba(228,228,228,
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', endColorstr='#ba932f', GradientType=0 );
 }
 
-section{
-	border:1px red solid;
-	margin-top: 90px;
-}
+section{border:1px red solid; margin-top: 90px;}
+
 /* menu */
-header{margin-top: 20px; background-color: #fff; height: 50px; box-shadow: 0 3px 3px rgba(0,0,0,.1); position:fixed; width: 100%; z-index: 255;
+header{margin-top: 20px; background-color: #fff; height: auto; box-shadow: 0 3px 3px rgba(0,0,0,.1); position:fixed; width: 100%; z-index: 255;
 text-transform: uppercase;}
 
 .navbar-brand {margin-left: 2%; position: fixed;}
@@ -48,9 +46,11 @@ text-transform: uppercase;}
 
 /* lista social */
 .icones-sociais{
-    position: absolute;
-    top: 55px;
-    right: 60px;
+    float: right;
+    right: 5px;
+    left: auto;
+    margin-top: 6%;
+    border: 1px red solid;
 }
 .icones-sociais li {
     display: inline-block;
