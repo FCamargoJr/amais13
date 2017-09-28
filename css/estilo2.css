@@ -18,8 +18,13 @@ body, html{
     height: 100%;
 }
 
-section{margin-top: 100px; text-align: center; max-width: 80vw; position: relative; border: 1px red solid;}
-
+section {
+	margin-top: 15vh;
+	height: 100vh;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
 .secao {height: 100vh; width: 100%; overflow: hidden;}
 .tela { }
 
@@ -95,23 +100,37 @@ text-transform: uppercase; overflow: visible;}
 /* ===========================
 --- AGENCIA
 ============================ */
-#agencia {
+.agencia {
 	margin-left: auto;
 	margin-right: auto;
 	position: relative;
+	color: white;
+}
+.agencia section {
+	text-align: center;
+	 border: 1px green solid;
+}
+.agencia p{
+	padding: 0 15%;
 }
 .fundoag{
-	background: url(../img/agencia.png) center no-repeat;
-	position: absolute;
-	margin-top: 10px;
-	border: 1px yellow solid;
+	background: url(../img/agencia.png) center top no-repeat;
+	height: 100%;
+    width: 100%;
+    margin-top: 28px;
+    position: absolute;
+    background-size: 100% 100%;
+    overflow: visible;
+    border: 1px yellow solid;
 }
 
 /* ===========================
 --- SERVIÇOS
 ============================ */
+.servicos {
+	color: white;
+}
 .servicos section {
-	margin-left: auto; margin-right: auto;
 }
 .servicos h1{text-align: center;}
 
@@ -151,6 +170,10 @@ text-transform: uppercase; overflow: visible;}
 	border: 1px green solid;
 }
 /* TESTE CIRCULOS */
+
+.equipe{
+	color: white;
+}
 
 /* ===========================
 --- FOOTER
