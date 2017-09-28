@@ -21,7 +21,7 @@ body, html{
 section{margin-top: 100px; text-align: center; max-width: 80vw; position: relative; border: 1px red solid;}
 
 .secao {height: 100vh; width: 100%; overflow: hidden;}
-.tela {display:; }
+.tela { }
 
 /* ===========================
 --- RESPONSIVE
@@ -219,4 +219,19 @@ footer{background-color: #fff; height: 50px; box-shadow: 0 -3px 3px rgba(0,0,0,.
 	background: -ms-linear-gradient(top, rgba(134,77,152,0.9) 0%, rgba(172,90,161,0.9) 100%);
 	background: linear-gradient(to bottom, rgba(134,77,152,0.9) 0%, rgba(172,90,161,0.9) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#864d98', endColorstr='#ac5aa1', GradientType=0 );
+}
+
+form{
+	display:table;
+}
+
+.form-control{
+	background-color: #894e98;
+	color: #FFFFFF!important;
+}
+
+.formulario{
+	background-color: #FFFFFF;
+	width: auto;
+	height: auto;
 }
