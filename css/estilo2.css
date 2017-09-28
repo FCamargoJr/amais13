@@ -20,35 +20,38 @@ body, html{
 
 section{margin-top: 100px; text-align: center; max-width: 80vw; position: relative; border: 1px red solid;}
 
+.secao {height: 100vh; width: 100%; overflow: hidden;}
+.tela {position: relative; }
+
+/* ===========================
+--- RESPONSIVE
+============================ */
+@media screen and (min-width: 900px){
+	.navbar-brand {margin-left: 5%;
+		width:100px;
+        height:50px;
+    }
+}
+
+@media screen and (max-width: 700px){
+	.navbar-nav {margin-top: 5%;} 
+	.slogan h1{margin-left: 5%;}
+       }
+
 /* ===========================
 --- MENU
 ============================ */
 header{margin-top: 20px; background-color: #fff; height: 50px; box-shadow: 0 3px 3px rgba(0,0,0,.1); position:fixed; width: 100%; z-index: 255;
 text-transform: uppercase;}
 
-.navbar-brand {margin-left: 2%; position: fixed;}
-
-@media screen and (min-width: 900px){
-	.navbar-brand {margin-left: 5%;}
-	.capa h1{margin-left: 30%;}
-	.circulos {
-	}
-}
-
-@media screen and (max-width: 700px){
-	.navbar-nav {margin-top: 5%;} 
-	.capa h1{margin-left: 5%;}
-}
 
 /* ===========================
 --- SOCIAL
 ============================ */
 .icones-sociais{
 	position: absolute;
-    right: 5px;
     left: auto;
-    margin-top: 4%;
-    margin-right: 1vw;
+    right: 5vw;
     border: 4px red dotted;
 }
 .icones-sociais li {
@@ -67,25 +70,27 @@ text-transform: uppercase;}
 .Youtube {background: url(../img/social_topo_youtube.png) no-repeat center; background-size: cover;}
 .Linkedin {background: url(../img/social_topo_linkedin.png) no-repeat center; background-size: cover;}
 
-.secao {height: 100vh; width: 100%; overflow: hidden;}
-.tela {position: relative; overflow: hidden;}
-.container{
-	width: 90vw;
-}
 /* ===========================
 --- INICIO
 ============================ */
-
 .capa{
-	padding-top: 25vh;
+	/*centralizando slogan*/
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+	/*bg*/
 	opacity: 0.9;
 	background: rgba(237,237,237,0.9);
 	background-image: url(../img/respingos.png), url(../img/manchas2.png);
 	background-position: bottom, right;
 	background-repeat: repeat-x, no-repeat;
 }
-.capa h1{border-left: dotted 5px dodgerblue; padding-left: 2%; margin-top: 5%; font-weight: 500; margin: auto;}
 
+/*Slogan*/
+.slogan h1{border-left: dotted 5px dodgerblue; padding-left: 4px; font-weight: 500;}
 .text1{color:#33c5ed;}
 .text2{color:#926caa;}
 .text3{color:#cc6caa;}
@@ -109,9 +114,7 @@ text-transform: uppercase;}
 /* ===========================
 --- SERVIÇOS
 ============================ */
-
 .servicos section {
-	width: 70;
 	margin-left: auto; margin-right: auto;
 }
 .servicos h1{text-align: center;}
@@ -152,6 +155,11 @@ text-transform: uppercase;}
 	border: 1px green solid;
 }
 /* TESTE CIRCULOS */
+
+/* ===========================
+--- FOOTER
+============================ */
+footer{background-color: #fff; height: 50px; box-shadow: 0 -3px 3px rgba(0,0,0,.1);	width: 100%; bottom: 0;}
 
 /* ===========================
 --- BACKGROUNDS DEGRADE
@@ -216,5 +224,3 @@ text-transform: uppercase;}
 	background: linear-gradient(to bottom, rgba(134,77,152,0.9) 0%, rgba(172,90,161,0.9) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#864d98', endColorstr='#ac5aa1', GradientType=0 );
 }
-
-footer{background-color: #fff; height: 50px; box-shadow: 0 -3px 3px rgba(0,0,0,.1);	width: 100%; bottom: 0;}
