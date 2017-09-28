@@ -23,9 +23,6 @@ section{margin-top: 100px; text-align: center; max-width: 80vw; position: relati
 .secao {height: 100vh; width: 100%; overflow: hidden;}
 .tela {position: relative; }
 
-header{margin-top: 20px; background-color: #fff; height: auto; box-shadow: 0 3px 3px rgba(0,0,0,.1); position:fixed; width: 100%; z-index: 255;
-text-transform: uppercase; overflow: visible;}
-
 /* ===========================
 --- RESPONSIVE
 ============================ */
@@ -43,9 +40,8 @@ text-transform: uppercase; overflow: visible;}
 /* ===========================
 --- MENU
 ============================ */
-header{margin-top: 20px; background-color: #fff; height: 50px; box-shadow: 0 3px 3px rgba(0,0,0,.1); position:fixed; width: 100%; z-index: 255;
-text-transform: uppercase;}
-
+header{margin-top: 20px; background-color: #fff; height: auto; box-shadow: 0 3px 3px rgba(0,0,0,.1); position:fixed; width: 100%; z-index: 255;
+text-transform: uppercase; overflow: visible;}
 
 /* ===========================
 --- SOCIAL
@@ -75,7 +71,7 @@ text-transform: uppercase;}
 /* ===========================
 --- INICIO
 ============================ */
-.capa{
+#capa{
 	/*centralizando slogan*/
 	align-items: center;
 	display: flex;
@@ -100,7 +96,7 @@ text-transform: uppercase;}
 /* ===========================
 --- AGENCIA
 ============================ */
-.agencia {
+#agencia {
 	margin-left: auto;
 	margin-right: auto;
 }
