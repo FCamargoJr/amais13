@@ -21,7 +21,7 @@ body, html{
 section{margin-top: 100px; text-align: center; max-width: 80vw; position: relative; border: 1px red solid;}
 
 .secao {height: 100vh; width: 100%; overflow: hidden;}
-.tela {position: relative; }
+.tela {display:; }
 
 /* ===========================
 --- RESPONSIVE
@@ -50,7 +50,6 @@ text-transform: uppercase; overflow: visible;}
 	position: absolute;
     left: auto;
     right: 5vw;
-    border: 4px red dotted;
 }
 .icones-sociais li {
     display: inline-block;
@@ -71,7 +70,7 @@ text-transform: uppercase; overflow: visible;}
 /* ===========================
 --- INICIO
 ============================ */
-#capa{
+.capa{
 	/*centralizando slogan*/
 	align-items: center;
 	display: flex;
@@ -99,14 +98,13 @@ text-transform: uppercase; overflow: visible;}
 #agencia {
 	margin-left: auto;
 	margin-right: auto;
+	position: relative;
 }
 .fundoag{
-	background: url(img/agencia.png);
+	background: url(../img/agencia.png) center no-repeat;
 	position: absolute;
-	margin: 0px auto;
 	margin-top: 10px;
 	border: 1px yellow solid;
-	overflow: hidden;
 }
 
 /* ===========================
