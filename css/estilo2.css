@@ -96,10 +96,6 @@ text-transform: uppercase;}
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b7fc1', endColorstr='#8c4e9e', GradientType=0 );
 	/*../degrade*/
 }
-h1,h2,h3,h4,p.agencia{
-	color: white;
-}
-
 .agencia img{
 	position: absolute;
 	margin: 0px auto;
