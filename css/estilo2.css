@@ -1,0 +1,258 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+Theme Name: Agência Amais13
+Theme URI: http://agenciaamais13.com
+Description: The Wordpress AMAIS13
+Author: Henrique Rossi e Fábio Camargo Jr.
+Author URI: 
+Version: 1.0
+ */
+
+
+*{margin: 0px; }
+
+body, html{
+    width: 100%;
+    height: 100%;
+}
+
+section {
+	margin-top: 15vh;
+	height: 100vh;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+.secao {height: 100vh; width: 100%; overflow: hidden;}
+.tela { }
+
+/* ===========================
+--- RESPONSIVE
+============================ */
+@media screen and (min-width: 900px){
+	.navbar-brand {margin-left: 5%;
+		width:100px;
+        height:50px;}
+}
+
+@media screen and (max-width: 700px){
+	.navbar-nav {margin-top: 5%;} 
+	.slogan h1{margin-left: 5%;}
+       }
+
+/* ===========================
+--- MENU
+============================ */
+header{margin-top: 20px; background-color: #fff; height: auto; box-shadow: 0 3px 3px rgba(0,0,0,.1); position:fixed; width: 100%; z-index: 255;
+text-transform: uppercase; overflow: visible;}
+
+/* ===========================
+--- SOCIAL
+============================ */
+.icones-sociais{
+	position: absolute;
+    left: auto;
+    right: 5vw;
+}
+.icones-sociais li {
+    display: inline-block;
+    margin-left: 1px;
+}
+.icones-sociais a {
+    width: 65px;
+    height: 65px;
+    display: inline-block;
+    text-indent: -99999px;
+}
+ 
+.Facebook {background: url(../img/social_topo_facebook.png) no-repeat center; background-size: cover;}
+.Instagram {background: url(../img/social_topo_instagram.png) no-repeat center; background-size: cover;}
+.Youtube {background: url(../img/social_topo_youtube.png) no-repeat center; background-size: cover;}
+.Linkedin {background: url(../img/social_topo_linkedin.png) no-repeat center; background-size: cover;}
+
+/* ===========================
+--- INICIO
+============================ */
+.capa{
+	/*centralizando slogan*/
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+	/*bg*/
+	opacity: 0.9;
+	background: rgba(237,237,237,0.9);
+	background-image: url(../img/respingos.png), url(../img/manchas2.png);
+	background-position: bottom, right;
+	background-repeat: repeat-x, no-repeat;
+}
+
+/*Slogan*/
+.slogan h1{border-left: dotted 5px dodgerblue; padding-left: 4px; font-weight: 500;}
+.text1{color:#33c5ed;}
+.text2{color:#926caa;}
+.text3{color:#cc6caa;}
+
+/* ===========================
+--- AGENCIA
+============================ */
+.agencia {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	color: white;
+}
+.agencia section {
+	text-align: center;
+}
+.agencia p{
+	padding: 0 15%;
+}
+.fundoag{
+	background: url(../img/agencia.png) center top no-repeat;
+	height: 100%;
+    width: 100%;
+    margin-top: 10px;
+    position: absolute;
+    background-size: 100% 100%;
+    overflow: visible;
+}
+
+/* ===========================
+--- SERVIÇOS
+============================ */
+.servicos {
+	color: white;
+}
+.servicos section {
+}
+.servicos h1{text-align: center;}
+
+.circulos {
+	display: inline-block;
+	background-color: #fff;
+    position: absolute;
+    margin-top: 8%;
+	border: 1px green solid;
+}
+
+.circ1{
+	margin: 0 790px;
+	width: 160px;
+	height: 160px;
+	background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+	border: 1px green solid;
+}
+.circ2{
+	margin: 290px 720px;
+	width: 190px;
+	height: 190px;
+	background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+	border: 1px green solid;
+}
+.circ3{
+	margin: 370px 450px;
+	width: 160px;
+	height: 160px;
+	background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+	border: 1px green solid;
+}
+/* TESTE CIRCULOS */
+
+.equipe{
+	color: white;
+}
+
+/* ===========================
+--- FOOTER
+============================ */
+footer{background-color: #fff; height: 50px; box-shadow: 0 -3px 3px rgba(0,0,0,.1);	width: 100%; bottom: 0;}
+
+/* ===========================
+--- BACKGROUNDS DEGRADE
+============================ */
+.agencia{
+	background: rgba(27,127,193,0.9);
+	background: -moz-linear-gradient(top, rgba(27,127,193,0.9) 0%, rgba(140,78,158,0.9) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(27,127,193,0.9)), color-stop(100%, rgba(140,78,158,0.9)));
+	background: -webkit-linear-gradient(top, rgba(27,127,193,0.9) 0%, rgba(140,78,158,0.9) 100%);
+	background: -o-linear-gradient(top, rgba(27,127,193,0.9) 0%, rgba(140,78,158,0.9) 100%);
+	background: -ms-linear-gradient(top, rgba(27,127,193,0.9) 0%, rgba(140,78,158,0.9) 100%);
+	background: linear-gradient(to bottom, rgba(27,127,193,0.9) 0%, rgba(140,78,158,0.9) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b7fc1', endColorstr='#8c4e9e', GradientType=0 );
+}
+.servicos{
+	background: rgba(140,78,158,0.9);
+	background: -moz-linear-gradient(top, rgba(140,78,158,0.9) 0%, rgba(201,100,166,0.9) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(140,78,158,0.9)), color-stop(100%, rgba(201,100,166,0.9)));
+	background: -webkit-linear-gradient(top, rgba(140,78,158,0.9) 0%, rgba(201,100,166,0.9) 100%);
+	background: -o-linear-gradient(top, rgba(140,78,158,0.9) 0%, rgba(201,100,166,0.9) 100%);
+	background: -ms-linear-gradient(top, rgba(140,78,158,0.9) 0%, rgba(201,100,166,0.9) 100%);
+	background: linear-gradient(to bottom, rgba(140,78,158,0.9) 0%, rgba(201,100,166,0.9) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8c4e9e', endColorstr='#c964a6', GradientType=0 );
+}
+.equipe{
+	background: rgba(201,100,166,0.9);
+	background: -moz-linear-gradient(top, rgba(201,100,166,0.9) 0%, rgba(40,193,235,0.9) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(201,100,166,0.9)), color-stop(100%, rgba(40,193,235,0.9)));
+	background: -webkit-linear-gradient(top, rgba(201,100,166,0.9) 0%, rgba(40,193,235,0.9) 100%);
+	background: -o-linear-gradient(top, rgba(201,100,166,0.9) 0%, rgba(40,193,235,0.9) 100%);
+	background: -ms-linear-gradient(top, rgba(201,100,166,0.9) 0%, rgba(40,193,235,0.9) 100%);
+	background: linear-gradient(to bottom, rgba(201,100,166,0.9) 0%, rgba(40,193,235,0.9) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c964a6', endColorstr='#28c1eb', GradientType=0 );
+}
+.clientes{
+	background: rgba(40,193,235,0.9);
+	background: -moz-linear-gradient(top, rgba(40,193,235,0.9) 0%, rgba(255,255,255,0.9) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(40,193,235,0.9)), color-stop(100%, rgba(255,255,255,0.9)));
+	background: -webkit-linear-gradient(top, rgba(40,193,235,0.9) 0%, rgba(255,255,255,0.9) 100%);
+	background: -o-linear-gradient(top, rgba(40,193,235,0.9) 0%, rgba(255,255,255,0.9) 100%);
+	background: -ms-linear-gradient(top, rgba(40,193,235,0.9) 0%, rgba(255,255,255,0.9) 100%);
+	background: linear-gradient(to bottom, rgba(40,193,235,0.9) 0%, rgba(255,255,255,0.9) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28c1eb', endColorstr='#ffffff', GradientType=0 );
+}
+.portfolio{
+	background: rgba(255,255,255,0.9);
+	background: -moz-linear-gradient(top, rgba(255,255,255,0.9) 0%, rgba(134,77,152,0.9) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,0.9)), color-stop(100%, rgba(134,77,152,0.9)));
+	background: -webkit-linear-gradient(top, rgba(255,255,255,0.9) 0%, rgba(134,77,152,0.9) 100%);
+	background: -o-linear-gradient(top, rgba(255,255,255,0.9) 0%, rgba(134,77,152,0.9) 100%);
+	background: -ms-linear-gradient(top, rgba(255,255,255,0.9) 0%, rgba(134,77,152,0.9) 100%);
+	background: linear-gradient(to bottom, rgba(255,255,255,0.9) 0%, rgba(134,77,152,0.9) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#864d98', GradientType=0 );
+}
+.contato{
+	background: rgba(134,77,152,0.9);
+	background: -moz-linear-gradient(top, rgba(134,77,152,0.9) 0%, rgba(172,90,161,0.9) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(134,77,152,0.9)), color-stop(100%, rgba(172,90,161,0.9)));
+	background: -webkit-linear-gradient(top, rgba(134,77,152,0.9) 0%, rgba(172,90,161,0.9) 100%);
+	background: -o-linear-gradient(top, rgba(134,77,152,0.9) 0%, rgba(172,90,161,0.9) 100%);
+	background: -ms-linear-gradient(top, rgba(134,77,152,0.9) 0%, rgba(172,90,161,0.9) 100%);
+	background: linear-gradient(to bottom, rgba(134,77,152,0.9) 0%, rgba(172,90,161,0.9) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#864d98', endColorstr='#ac5aa1', GradientType=0 );
+}
+
+form{
+	display:table;
+}
+
+.form-control{
+	background-color: #894e98;
+	color: #FFFFFF!important;
+}
+
+.formulario{
+	background-color: #FFFFFF;
+	width: auto;
+	height: auto;
+}
